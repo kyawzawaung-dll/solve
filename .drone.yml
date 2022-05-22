@@ -9,7 +9,7 @@ steps:
   - go build
   - go test
 
-- name: frontend
+- name: frontend2
   image: node
   commands:
   - npm install
